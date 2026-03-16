@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/tagsortlogistics/mixin/client/GenericContainerScreenMixin": {
+      "init": "Lnet/minecraft/class_465;method_25426()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/tagsortlogistics/mixin/client/GenericContainerScreenMixin": {
+        "init": "Lnet/minecraft/class_465;method_25426()V"
+      }
+    }
+  }
+}
