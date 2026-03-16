@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "tagsortlogistics",
+	"version": "1.0.0",
+	"name": "TagSort Logistics",
+	"description": "Smart inventory logistics via Item Frames and Tags",
+	"authors": [
+		"Fabric"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tagsortlogistics/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.tagsortlogistics.TagSortLogistics"
+		],
+		"client": [
+			"com.tagsortlogistics.TagSortLogisticsClient"
+		]
+	},
+	"mixins": [
+		"tagsortlogistics.mixins.json",
+		{
+			"config": "tagsortlogistics.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
